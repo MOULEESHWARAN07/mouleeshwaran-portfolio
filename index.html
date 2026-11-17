@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouleeshwaran B — AI & Data Science Developer Portfolio</title>
+    <meta name="description" content="Portfolio of Mouleeshwaran B - AI & Data Science Pre-Final Year Student, Machine Learning Intern & IoT Developer featuring responsive 3D project flashcards with live demo links.">
+    
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">Mouleeshwaran<span>.</span></a>
+            
+            <nav class="nav-links">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About & Experience</a>
+                <a href="#projects" class="nav-link">Projects Flashcards</a>
+                <a href="#skills" class="nav-link">Skills & Certs</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+
+            <a href="#contact" class="btn-pill-cta">
+                Get in touch
+                <span class="icon-badge"><i class="fa-solid fa-arrow-right"></i></span>
+            </a>
+
+            <button class="mobile-toggle" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-grid">
+                    <div class="hero-left">
+                        <div class="hero-eyebrow">Hey, I'm</div>
+                        <h1 class="hero-title">Mouleeshwaran B</h1>
+                        
+                        <div class="hero-right-callout">
+                            <h2 class="hero-quote"> B.Tech - AI & Data Science Student</h2>
+                            <p class="hero-desc">
+                                Pre-final year B.Tech student at Dr. N.G.P. Institute of Technology. Motivated developer with hands-on experience building full-stack AI contract tools, RAG LLM pipelines, and IoT embedded safety systems.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="hero-right">
+                        <div class="hero-image-wrapper">
+                            <img src="assets/hero_portrait.jpg" alt="Mouleeshwaran B Portrait" class="hero-img">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bottom Ticker / Highlight Badges Bar (Folioblox Style) -->
+                <div class="hero-bottom-bar">
+                    <div class="hero-badge-item">
+                        <span class="badge-num">#01</span>
+                        <span class="badge-text">AI & Data Science</span>
+                    </div>
+                    <div class="hero-badge-item">
+                        <span class="badge-num">#02</span>
+                        <span class="badge-text">RAG & LLM Pipelines</span>
+                    </div>
+                    <div class="hero-badge-item">
+                        <span class="badge-num">#03</span>
+                        <span class="badge-text">IoT Hardware Systems</span>
+                    </div>
+                    <div class="hero-badge-item">
+                        <span class="badge-num">#04</span>
+                        <span class="badge-text">ML Internship Experience</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Infinite Tech Tools Marquee Logo Loop -->
+        <section class="logo-loop-section">
+            <div class="marquee-container">
+                <div class="marquee-track">
+                    <!-- First Copy of Logos -->
+                    <div class="tool-logo-card"><i class="fa-brands fa-python" style="color: #38bdf8;"></i> <span class="tool-logo-name">Python</span></div>
+                    <div class="tool-logo-card"><i class="fa-brands fa-java" style="color: #f97316;"></i> <span class="tool-logo-name">Java</span></div>
+                    <div class="tool-logo-card"><i class="fa-solid fa-c" style="color: #a855f7;"></i> <span class="tool-logo-name">C (Fundamentals)</span></div>
+                    <div class="tool-logo-card"><i class="fa-solid fa-database" style="color: #22c55e;"></i> <span class="tool-logo-name">SQL & DBMS</span></div>
+                    <div class="tool-logo-card"><i class="fa-solid fa-brain" style="color: #ec4899;"></i> <span class="tool-logo-name">RAG & LLaMA 3.2</span></div>
+                    <div class="tool-logo-card"><i class="fa-solid fa-microchip" style="color: #3b82f6;"></i> <span class="tool-logo-name">Arduino Nano</span></div>
+                    <div class="tool-logo-card"><i class="fa-brands fa-github" style="color: #f8fafc;"></i> <span class="tool-logo-name">GitHub</span></div>
+                    <div class="tool-logo-card"><i class="fa-solid fa-wave-square" style="color: #eab308;"></i> <span class="tool-logo-name">Edge Impulse</span></div>
+                    <div class="tool-logo-card"><i class="fa-solid fa-leaf" style="color: #10b981;"></i> <span class="tool-logo-name">Spring Boot</span></div>
+                    <div class="tool-logo-card"><i class="fa-solid fa-chart-pie" style="color: #06b6d4;"></i> <span class="tool-logo-name">Pandas & NumPy</span></div>
+                    <div class="tool-logo-card"><i class="fa-solid fa-laptop-code" style="color: #8b5cf6;"></i> <span class="tool-logo-name">Google Colab</span></div>
+                    <div class="tool-logo-card"><i class="fa-solid fa-code" style="color: #007acc;"></i> <span class="tool-logo-name">VS Code</span></div>
+
+                    <!-- Second Copy for Seamless Loop -->
+                    <div class="tool-logo-card"><i class="fa-brands fa-python" style="color: #38bdf8;"></i> <span class="tool-logo-name">Python</span></div>
+                    <div class="tool-logo-card"><i class="fa-brands fa-java" style="color: #f97316;"></i> <span class="tool-logo-name">Java</span></div>
+                    <div class="tool-logo-card"><i class="fa-solid fa-c" style="color: #a855f7;"></i> <span class="tool-logo-name">C (Fundamentals)</span></div>
+                    <div class="tool-logo-card"><i class="fa-solid fa-database" style="color: #22c55e;"></i> <span class="tool-logo-name">SQL & DBMS</span></div>
+                    <div class="tool-logo-card"><i class="fa-solid fa-brain" style="color: #ec4899;"></i> <span class="tool-logo-name">RAG & LLaMA 3.2</span></div>
+                    <div class="tool-logo-card"><i class="fa-solid fa-microchip" style="color: #3b82f6;"></i> <span class="tool-logo-name">Arduino Nano</span></div>
+                    <div class="tool-logo-card"><i class="fa-brands fa-github" style="color: #f8fafc;"></i> <span class="tool-logo-name">GitHub</span></div>
+                    <div class="tool-logo-card"><i class="fa-solid fa-wave-square" style="color: #eab308;"></i> <span class="tool-logo-name">Edge Impulse</span></div>
+                    <div class="tool-logo-card"><i class="fa-solid fa-leaf" style="color: #10b981;"></i> <span class="tool-logo-name">Spring Boot</span></div>
+                    <div class="tool-logo-card"><i class="fa-solid fa-chart-pie" style="color: #06b6d4;"></i> <span class="tool-logo-name">Pandas & NumPy</span></div>
+                    <div class="tool-logo-card"><i class="fa-solid fa-laptop-code" style="color: #8b5cf6;"></i> <span class="tool-logo-name">Google Colab</span></div>
+                    <div class="tool-logo-card"><i class="fa-solid fa-code" style="color: #007acc;"></i> <span class="tool-logo-name">VS Code</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About & Experience Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <span class="section-tag">// Background & Track Record</span>
+                <h2 class="section-title">Education & Internship Experience</h2>
+                <p class="section-subtitle">Motivated undergraduate bridging intelligent machine learning algorithms with practical software & hardware systems.</p>
+
+                <div class="about-grid">
+                    <!-- Education Card -->
+                    <div class="about-card">
+                        <div class="card-icon-header">
+                            <div class="icon-box"><i class="fa-solid fa-graduation-cap"></i></div>
+                            <h3 class="card-title">Education</h3>
+                        </div>
+                        <div class="edu-institution">Dr. N.G.P. Institute of Technology</div>
+                        <div class="edu-degree">B.Tech – Artificial Intelligence & Data Science</div>
+                        <div class="edu-meta">
+                            <span class="meta-chip">Pre-Final Year Undergraduate</span>
+                            <span class="meta-chip">CGPA: <strong>7.77</strong></span>
+                            <span class="meta-chip">Expected Graduation: <strong>2028</strong></span>
+                        </div>
+                        <p class="hero-desc" style="font-size: 0.95rem;">
+                            Motivated pre-final year AI & DS student with strong fundamentals in Data Structures, Algorithms, AI, ML concepts, DBMS, and SQL.
+                        </p>
+                    </div>
+
+                    <!-- Internship Experience Card -->
+                    <div class="about-card">
+                        <div class="card-icon-header">
+                            <div class="icon-box"><i class="fa-solid fa-briefcase"></i></div>
+                            <h3 class="card-title">Internship Experience</h3>
+                        </div>
+                        
+                        <div style="margin-bottom: 1.5rem;">
+                            <div class="edu-institution" style="color: var(--text-primary);">Machine Learning Intern — <span style="color: var(--accent-orange);">FlyRank.ai (Remote)</span></div>
+                            <div style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.4rem;">Jul – Sep 2026</div>
+                            <p style="font-size: 0.9rem; color: var(--text-secondary);">
+                                Gained practical exposure to real-world Machine Learning workflows and project collaboration within a distributed engineering team.
+                            </p>
+                        </div>
+
+                        <div style="border-top: 1px solid rgba(255,255,255,0.08); padding-top: 1rem;">
+                            <div class="edu-institution" style="color: var(--text-primary);">Machine Learning Intern — <span style="color: var(--accent-orange);">Krish Tec</span></div>
+                            <p style="font-size: 0.9rem; color: var(--text-secondary);">
+                                Assisted with dataset preparation & preprocessing using Python (Pandas, NumPy) and Edge Impulse for image/data classification tasks.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section (Hover-Responsive 3D Flashcards with Live Demo Links) -->
+        <section id="projects" class="section" style="background: rgba(14, 16, 23, 0.4);">
+            <div class="container">
+                <span class="section-tag">// Showcase</span>
+                <h2 class="section-title">Responsive Project Flashcards</h2>
+                <p class="section-subtitle">Hover your cursor over any card (or tap on mobile) to reveal detailed descriptions, tech architecture, and live demo links.</p>
+
+                <!-- Filter Tabs -->
+                <div class="flashcards-controls">
+                    <div class="filter-tabs">
+                        <button class="filter-btn active" data-filter="all">All Projects</button>
+                        <button class="filter-btn" data-filter="ai">AI / RAG LLM</button>
+                        <button class="filter-btn" data-filter="iot">IoT & Hardware</button>
+                        <button class="filter-btn" data-filter="coding">Coding & Hackathons</button>
+                    </div>
+                    <div class="flashcard-hint">
+                        <i class="fa-solid fa-arrow-pointer" style="color: var(--accent-orange);"></i> Hover cursor to inspect project specs
+                    </div>
+                </div>
+
+                <!-- Flashcard Grid -->
+                <div class="projects-flashcards-grid">
+
+                    <!-- Flashcard 1: ClauseGuard -->
+                    <div class="flashcard-wrapper" data-category="ai">
+                        <div class="flashcard">
+                            <!-- Front (Initial State) -->
+                            <div class="flashcard-front">
+                                <div class="card-media">
+                                    <img src="assets/clause_guard.jpg" alt="ClauseGuard AI Contract Tool">
+                                    <span class="card-tag-badge"><i class="fa-solid fa-robot"></i> Full-Stack AI & RAG</span>
+                                </div>
+                                <div class="card-body-front">
+                                    <div>
+                                        <h3 class="card-front-title">ClauseGuard — AI Contract Analysis Tool</h3>
+                                        <p class="card-front-desc">
+                                            Extracts & risk-scores clauses from PDF contracts using NLP & RAG architecture with interactive document Q&A and version comparison.
+                                        </p>
+                                        <div class="card-tech-chips">
+                                            <span class="tech-chip">Python</span>
+                                            <span class="tech-chip">RAG Pipeline</span>
+                                            <span class="tech-chip">Ollama</span>
+                                            <span class="tech-chip">LLaMA 3.2</span>
+                                            <span class="tech-chip">NLP</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-front-footer">
+                                        <!-- Live Demo & Code Links Space -->
+                                        <div class="card-links-space">
+                                            <a href="https://github.com/MOULEESHWARAN07" target="_blank" rel="noopener" class="btn-demo-link">
+                                                <i class="fa-solid fa-rocket"></i> Live Demo
+                                            </a>
+                                            <a href="https://github.com/MOULEESHWARAN07" target="_blank" rel="noopener" class="btn-code-link">
+                                                <i class="fa-brands fa-github"></i> Source Code
+                                            </a>
+                                        </div>
+                                        <div class="hover-indicator"><i class="fa-solid fa-arrow-right"></i> Hover for Specs</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Back (Revealed on Hover / Tap) -->
+                            <div class="flashcard-back">
+                                <div>
+                                    <div class="back-header">
+                                        <h3 class="back-title">ClauseGuard Specifications</h3>
+                                        <span class="live-pill"><i class="fa-solid fa-circle"></i> Live Ready</span>
+                                    </div>
+                                    <ul class="back-points">
+                                        <li><strong>RAG Architecture:</strong> Full-stack AI tool that extracts and risk-scores legal clauses from PDF contracts using NLP pipeline & Retrieval-Augmented Generation for interactive document Q&A.</li>
+                                        <li><strong>Offline LLM Inference:</strong> Implemented local offline LLM inference using Ollama and LLaMA 3.2 for privacy-preserving contract processing.</li>
+                                        <li><strong>Contract Comparison:</strong> Automated delta analysis between document versions flagging risky changes and liability updates.</li>
+                                    </ul>
+                                </div>
+
+                                <div class="back-actions">
+                                    <div class="back-links-grid">
+                                        <a href="https://github.com/MOULEESHWARAN07" target="_blank" rel="noopener" class="btn-card-primary">
+                                            <i class="fa-solid fa-arrow-up-right-from-square"></i> Open Live Demo
+                                        </a>
+                                        <a href="https://github.com/MOULEESHWARAN07" target="_blank" rel="noopener" class="btn-card-secondary">
+                                            <i class="fa-brands fa-github"></i> GitHub Code
+                                        </a>
+                                    </div>
+                                    <button class="btn-demo-sim" data-project="clause" style="margin-top: 0.6rem;">
+                                        <i class="fa-solid fa-terminal"></i> Run Live Telemetry Simulation
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Flashcard 2: Accident Detection -->
+                    <div class="flashcard-wrapper" data-category="iot">
+                        <div class="flashcard">
+                            <!-- Front (Initial State) -->
+                            <div class="flashcard-front">
+                                <div class="card-media">
+                                    <img src="assets/accident_detection.jpg" alt="Accident Detection and Alert System">
+                                    <span class="card-tag-badge"><i class="fa-solid fa-microchip"></i> IoT & Hardware</span>
+                                </div>
+                                <div class="card-body-front">
+                                    <div>
+                                        <h3 class="card-front-title">Accident Detection & Alert System</h3>
+                                        <p class="card-front-desc">
+                                            Real-time vehicular collision detection using Arduino Nano, accelerometer, GPS, and GSM modules for instant emergency SMS alerts.
+                                        </p>
+                                        <div class="card-tech-chips">
+                                            <span class="tech-chip">Arduino Nano</span>
+                                            <span class="tech-chip">Accelerometer</span>
+                                            <span class="tech-chip">GPS (NEO-6M)</span>
+                                            <span class="tech-chip">GSM Module</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-front-footer">
+                                        <!-- Live Demo & Code Links Space -->
+                                        <div class="card-links-space">
+                                            <a href="https://github.com/MOULEESHWARAN07" target="_blank" rel="noopener" class="btn-demo-link">
+                                                <i class="fa-solid fa-rocket"></i> Live Demo
+                                            </a>
+                                            <a href="https://github.com/MOULEESHWARAN07" target="_blank" rel="noopener" class="btn-code-link">
+                                                <i class="fa-brands fa-github"></i> Source Code
+                                            </a>
+                                        </div>
+                                        <div class="hover-indicator"><i class="fa-solid fa-arrow-right"></i> Hover for Specs</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Back (Revealed on Hover / Tap) -->
+                            <div class="flashcard-back">
+                                <div>
+                                    <div class="back-header">
+                                        <h3 class="back-title">Hardware Architecture</h3>
+                                        <span class="live-pill"><i class="fa-solid fa-circle"></i> Hardware Active</span>
+                                    </div>
+                                    <ul class="back-points">
+                                        <li><strong>Real-Time Impact Detection:</strong> Built an IoT-based system using Arduino Nano and accelerometer to detect sudden vehicle collision impacts.</li>
+                                        <li><strong>GPS Coordinate Pinpointing:</strong> Integrated GPS module to capture precise vehicle location at the exact timestamp of impact.</li>
+                                        <li><strong>Automated Emergency SMS:</strong> Integrated GSM module to auto-dispatch SMS alerts with Google Maps coordinates to emergency contacts.</li>
+                                        <li><strong>Manual SOS & False Alarm Override:</strong> Included driver manual push-button SOS and false alarm cancellation toggle.</li>
+                                    </ul>
+                                </div>
+
+                                <div class="back-actions">
+                                    <div class="back-links-grid">
+                                        <a href="https://github.com/MOULEESHWARAN07" target="_blank" rel="noopener" class="btn-card-primary">
+                                            <i class="fa-solid fa-arrow-up-right-from-square"></i> Open Live Demo
+                                        </a>
+                                        <a href="https://github.com/MOULEESHWARAN07" target="_blank" rel="noopener" class="btn-card-secondary">
+                                            <i class="fa-brands fa-github"></i> GitHub Code
+                                        </a>
+                                    </div>
+                                    <button class="btn-demo-sim" data-project="accident" style="margin-top: 0.6rem;">
+                                        <i class="fa-solid fa-tower-broadcast"></i> Run Live Telemetry Simulation
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Flashcard 3: Coding Practice & Hackathons -->
+                    <div class="flashcard-wrapper" data-category="coding">
+                        <div class="flashcard">
+                            <!-- Front (Initial State) -->
+                            <div class="flashcard-front">
+                                <div class="card-media">
+                                    <img src="assets/dsa_hackathons.jpg" alt="DSA Coding Practice & Achievements">
+                                    <span class="card-tag-badge"><i class="fa-solid fa-trophy"></i> Coding & Achievements</span>
+                                </div>
+                                <div class="card-body-front">
+                                    <div>
+                                        <h3 class="card-front-title">DSA Mastery & Hackathon Wins</h3>
+                                        <p class="card-front-desc">
+                                            150+ DSA problems solved across LeetCode & GeeksforGeeks. Selected in college level for Smart India Hackathon (SIH 2025).
+                                        </p>
+                                        <div class="card-tech-chips">
+                                            <span class="tech-chip">Python</span>
+                                            <span class="tech-chip">Java</span>
+                                            <span class="tech-chip">LeetCode</span>
+                                            <span class="tech-chip">SIH 2025</span>
+                                            <span class="tech-chip">TEXPERIA 2026</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-front-footer">
+                                        <!-- Live Demo & Code Links Space -->
+                                        <div class="card-links-space">
+                                            <a href="https://leetcode.com" target="_blank" rel="noopener" class="btn-demo-link">
+                                                <i class="fa-solid fa-code"></i> LeetCode
+                                            </a>
+                                            <a href="https://github.com/MOULEESHWARAN07" target="_blank" rel="noopener" class="btn-code-link">
+                                                <i class="fa-brands fa-github"></i> GitHub
+                                            </a>
+                                        </div>
+                                        <div class="hover-indicator"><i class="fa-solid fa-arrow-right"></i> Hover for Specs</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Back (Revealed on Hover / Tap) -->
+                            <div class="flashcard-back">
+                                <div>
+                                    <div class="back-header">
+                                        <h3 class="back-title">Coding Track Record</h3>
+                                        <span class="live-pill"><i class="fa-solid fa-circle"></i> Active Streaks</span>
+                                    </div>
+                                    <ul class="back-points">
+                                        <li><strong>150+ DSA Problems:</strong> Solved 150+ Data Structures & Algorithms problems across LeetCode & GeeksforGeeks (Arrays, Strings, Searching, Sorting).</li>
+                                        <li><strong>Smart India Hackathon (SIH 2025):</strong> Participated and selected in college level for SIH 2025.</li>
+                                        <li><strong>TEXPERIA (2026):</strong> Participated in TEXPERIA (2026) national hackathon conducted by SNS Institutions.</li>
+                                    </ul>
+                                </div>
+
+                                <div class="back-actions">
+                                    <div class="back-links-grid">
+                                        <a href="https://leetcode.com" target="_blank" rel="noopener" class="btn-card-primary">
+                                            <i class="fa-solid fa-arrow-up-right-from-square"></i> LeetCode Profile
+                                        </a>
+                                        <a href="https://github.com/MOULEESHWARAN07" target="_blank" rel="noopener" class="btn-card-secondary">
+                                            <i class="fa-brands fa-github"></i> GitHub Profile
+                                        </a>
+                                    </div>
+                                    <button class="btn-demo-sim" data-project="coding" style="margin-top: 0.6rem;">
+                                        <i class="fa-solid fa-chart-line"></i> Run Benchmark Test
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Skills & Certifications Section -->
+        <section id="skills" class="section">
+            <div class="container">
+                <span class="section-tag">// Competencies</span>
+                <h2 class="section-title">Technical Skills & Certifications</h2>
+                <p class="section-subtitle">A practical software and hardware toolkit tailored for Artificial Intelligence and Data Science applications.</p>
+
+                <!-- Skills Categories -->
+                <div class="skills-grid">
+                    <div class="skill-category-card">
+                        <h3 class="category-title"><i class="fa-solid fa-code"></i> Languages & Frameworks</h3>
+                        <div class="skills-pills-wrap">
+                            <span class="skill-pill"><i class="fa-brands fa-python" style="color: #38bdf8;"></i> Python (Primary)</span>
+                            <span class="skill-pill"><i class="fa-brands fa-java" style="color: #f97316;"></i> Java</span>
+                            <span class="skill-pill"><i class="fa-solid fa-c" style="color: #a855f7;"></i> C (Fundamentals)</span>
+                            <span class="skill-pill"><i class="fa-solid fa-leaf" style="color: #22c55e;"></i> Spring Boot (Basics)</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category-card">
+                        <h3 class="category-title"><i class="fa-solid fa-brain"></i> Core AI & Database</h3>
+                        <div class="skills-pills-wrap">
+                            <span class="skill-pill">Data Structures & Algorithms (DSA)</span>
+                            <span class="skill-pill">Artificial Intelligence (AI)</span>
+                            <span class="skill-pill">Machine Learning Fundamentals</span>
+                            <span class="skill-pill">DBMS & SQL</span>
+                            <span class="skill-pill">RAG & Ollama LLaMA 3.2</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category-card">
+                        <h3 class="category-title"><i class="fa-solid fa-microchip"></i> Tools, Platforms & Learning</h3>
+                        <div class="skills-pills-wrap">
+                            <span class="skill-pill"><i class="fa-brands fa-github"></i> GitHub</span>
+                            <span class="skill-pill">Arduino IDE</span>
+                            <span class="skill-pill">Edge Impulse</span>
+                            <span class="skill-pill">Advanced SQL (Learning)</span>
+                            <span class="skill-pill">Data Analysis (Learning)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certifications -->
+                <span class="section-tag" style="margin-top: 2rem;">// Industry Credentials</span>
+                <h3 style="font-family: var(--font-heading); font-size: 1.8rem; font-weight: 700; margin-bottom: 2rem;">Verified Certifications</h3>
+                
+                <div class="certs-grid">
+                    <div class="cert-card">
+                        <div class="cert-badge-icon"><i class="fa-solid fa-certificate"></i></div>
+                        <div>
+                            <h4 class="cert-name">Machine Learning Foundation Certification</h4>
+                            <div class="cert-issuer">Infosys Springboard</div>
+                        </div>
+                    </div>
+
+                    <div class="cert-card">
+                        <div class="cert-badge-icon"><i class="fa-solid fa-certificate"></i></div>
+                        <div>
+                            <h4 class="cert-name">Machine Learning Internship Certification</h4>
+                            <div class="cert-issuer">Krish Tec</div>
+                        </div>
+                    </div>
+
+                    <div class="cert-card">
+                        <div class="cert-badge-icon"><i class="fa-solid fa-certificate"></i></div>
+                        <div>
+                            <h4 class="cert-name">Human Computer Interaction</h4>
+                            <div class="cert-issuer">NPTEL Certification</div>
+                        </div>
+                    </div>
+
+                    <div class="cert-card">
+                        <div class="cert-badge-icon"><i class="fa-solid fa-certificate"></i></div>
+                        <div>
+                            <h4 class="cert-name">Machine Learning Internship Certification</h4>
+                            <div class="cert-issuer">FlyRankAI</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="cta-banner">
+                    <span class="section-tag" style="margin-bottom: 0.5rem;">// Open For Internship Opportunities</span>
+                    <h2 class="cta-banner-title">Let's Build Something Impactful.</h2>
+                    <p style="color: var(--text-secondary); max-width: 620px; margin: 0 auto;">
+                        Eager to contribute, gain practical exposure, and solve real-world problems with an innovative engineering team.
+                    </p>
+
+                    <div class="contact-info-list">
+                        <a href="mailto:mouleeshwaranb07@gmail.com" class="contact-item">
+                            <i class="fa-solid fa-envelope"></i> mouleeshwaranb07@gmail.com
+                        </a>
+                        <a href="https://www.linkedin.com/in/mouleeshwaran-b-7b0256328/" target="_blank" rel="noopener" class="contact-item">
+                            <i class="fa-brands fa-linkedin"></i> LinkedIn Profile
+                        </a>
+                        <a href="https://github.com/MOULEESHWARAN07" target="_blank" rel="noopener" class="contact-item">
+                            <i class="fa-brands fa-github"></i> GitHub Profile
+                        </a>
+                        <div class="contact-item">
+                            <i class="fa-solid fa-location-dot"></i> Coimbatore, India
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-flex">
+            <div class="footer-copy">
+                © 2026 Mouleeshwaran B. All rights reserved. Designed & built for AI & Data Science showcase.
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/MOULEESHWARAN07" target="_blank" rel="noopener" class="social-link-btn" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/mouleeshwaran-b-7b0256328/" target="_blank" rel="noopener" class="social-link-btn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="mailto:mouleeshwaranb07@gmail.com" class="social-link-btn" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Interactive Telemetry Console Modal -->
+    <div class="modal-overlay" id="simModal">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose"><i class="fa-solid fa-xmark"></i></button>
+            <h3 id="modalTitle" style="font-family: var(--font-heading); font-size: 1.4rem; color: var(--accent-orange);">Live System Telemetry Stream</h3>
+            <p style="font-size: 0.88rem; color: var(--text-secondary); margin-top: 0.5rem;">Simulating real-time module outputs and diagnostic logs...</p>
+            <div class="sim-console" id="simConsole"></div>
+        </div>
+    </div>
+
+    <!-- Custom Glowing Blue Light Particle Trail Animation -->
+    <div id="asteroidParticleContainer"></div>
+
+    <!-- Application Script -->
+    <script src="app.js"></script>
+</body>
+</html>
